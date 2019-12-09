@@ -22,7 +22,7 @@ public abstract class Shape {
 
 
     public Shape(Point topLeft, MidiSynth midiSynth) {
-        this((int) topLeft.getX(), (int) topLeft.getY(), 0, 0); //note to students: calls the other constructor!
+        this((int) topLeft.getX(), (int) topLeft.getY(), 0, 0);
         selected = false;
         this.midiSynth = midiSynth;
         instrument = 0;

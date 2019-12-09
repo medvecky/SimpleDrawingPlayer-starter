@@ -15,7 +15,7 @@ public class Rectangle  extends Shape {
         super(x, y, w, h);
     }
 
-    // EFFECTS: return true if the given Point (x,y) is contained within the bounds of this Shape
+    // EFFECTS: return true if the given Point (x,y) is contained within the bounds of this Rectangle
     public boolean contains(Point point) {
         int point_x = point.x;
         int point_y = point.y;
@@ -23,12 +23,12 @@ public class Rectangle  extends Shape {
         return containsX(point_x) && containsY(point_y);
     }
 
-    //EFFECTS: draws the shape
+    //EFFECTS: draws the rectangle
      void drawGraphics(Graphics g) {
         g.drawRect(x, y, width, height);
     }
 
-    //EFFECTS: fills the shape
+    //EFFECTS: fills the rectangle
      void fillGraphics(Graphics g) {
         g.fillRect(x, y, width, height);
     }
