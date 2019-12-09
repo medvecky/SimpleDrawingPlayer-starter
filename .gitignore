@@ -1,5 +1,5 @@
 # This is a gitignore file
-
+.idea
 *.class
 workspace.xml
 .DS_Store
